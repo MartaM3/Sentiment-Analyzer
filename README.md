@@ -29,7 +29,7 @@ cd Text-Sentiment-Analyzer
 ```bash
 pip install -r requirements.txt
 ```
-3.Download TextBlob support data:
+3. Download TextBlob support data:
 ```bash
 python -m textblob.download_corpora
 ```
@@ -38,11 +38,11 @@ python -m textblob.download_corpora
 ```bash
 python analyzer.py comments.csv
 ```
-2.Or run it with the included sample dataset:
+2. Or run it with the included sample dataset:
 ```bash
 python analyzer.py
 ```
-3.Output includes:
+3. Output includes:
 a) Table of comments with their sentiment
 b) Bar chart of sentiment distribution
 c) Top words by category
