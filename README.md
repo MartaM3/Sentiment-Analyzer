@@ -24,14 +24,14 @@ It classifies comments as **Positive, Negative, or Neutral**, generates statisti
 ```bash
 git clone https://github.com/YOUR_USERNAME/Text-Sentiment-Analyzer.git
 cd Text-Sentiment-Analyzer
-2.Install required libraries:
+2. Install required libraries:
 ```bash
 pip install -r requirements.txt
 3.Download TextBlob support data:
 ```bash
 python -m textblob.download_corpora
 
-**## Usage **
+## Usage 
 1. Run the script with your own CSV
 ```bash
 python analyzer.py comments.csv
